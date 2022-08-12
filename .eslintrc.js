@@ -12,7 +12,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2021,
   },
-  plugins: ['vue', 'tailwindcss', '@typescript-eslint'],
+  plugins: ['vue', 'tailwindcss'],
   rules: {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': [0, { 'packageDir ': './src/' }],
