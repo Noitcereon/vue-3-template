@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
-interface ImportMetaEnv {
-    readonly VITE_APP_TITLE: string
+interface ImportMetaEnv { // eslint-disable-line
+    readonly VITE_BASE_PUBLIC_PATH: string
     // more env variables...
   }
   
