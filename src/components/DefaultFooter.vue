@@ -1,8 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <footer>
-    <div class="container mx-auto absolute bottom-0 inset-x-0 p-4">
+    <div class="container mx-auto lg:max-w-6xl">
       <ul class="list-none">
         <h4 class="text-lg text-pink-200">Kontakt</h4>
         <li>example@mail.com</li>
@@ -16,5 +15,4 @@
         </ul>
       </div>
     </div>
-  </footer>
 </template>

@@ -10,7 +10,6 @@ const props = defineProps({
 </script>
 
 <template>
-  <header class="absolute inset-x-0 top-0 lg:max-w-3xl lg:mx-auto">
     <div class="container flex p-4 mx-auto">
       <div class="container flex justify-start items-center lg:hidden">
         <h1 class="text-2xl">{{ props.currentPage }}</h1>
@@ -25,5 +24,4 @@ const props = defineProps({
         <ThemeSwitch />
       </div>
     </div>
-  </header>
 </template>
