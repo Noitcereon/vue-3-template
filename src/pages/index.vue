@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { onMounted } from 'vue';
-import ThemeSwitch from '@/components/ThemeSwitch.vue';
-import { currentTheme, initTheme, switchTheme } from '../composables/theme';
+import { onMounted, ref } from "vue";
+import { initTheme } from "../composables/theme";
+import PageHeader from "../components/PageHeader.vue";
 
 onMounted(() => {
   initTheme();
@@ -9,21 +9,21 @@ onMounted(() => {
 </script>
 
 <template>
-  <header class="absolute inset-x-0 top-0">
-    <div class="container flex justify-end p-4 mx-auto">
-      <button
-        class="overflow-hidden p-2"
-        @click="switchTheme()"
-      >
-        <ThemeSwitch :current-theme="currentTheme" />
-      </button>
-    </div>
-  </header>
+  <PageHeader />
 
-  <main class="flex flex-col justify-center items-center py-16 px-4 mx-auto max-w-3xl h-screen">
-    <h1 class="pb-20 text-6xl text-center text-gray-700 dark:text-gray-100 transition-colors">
+  <main
+    class="flex flex-col justify-center items-center py-16 px-4 mx-auto max-w-3xl h-screen"
+  >
+    <h1
+      class="pb-20 text-6xl text-center text-gray-700 dark:text-gray-100 transition-colors"
+    >
       Vue.js starter template
     </h1>
+    <p class="text-gray-600 dark:text-pink-900">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim ipsum
+      quo voluptates eos id ex saepe exercitationem necessitatibus? Dolore fuga
+      quasi vel corporis illum, velit aspernatur est ex explicabo?
+    </p>
   </main>
 </template>
 
