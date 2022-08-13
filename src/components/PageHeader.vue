@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import ThemeSwitch from "./ThemeSwitch.vue";
 
-const props = defineProps(["currentPage"], );
+const props = defineProps({
+    currentPage: {
+        type: String,
+        required: true
+    }
+});
 </script>
 
 <template>

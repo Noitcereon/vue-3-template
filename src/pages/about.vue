@@ -4,7 +4,7 @@ import PageFooter from "../components/PageFooter.vue";
 </script>
 
 <template>
-  <PageHeader />
+  <PageHeader current-page="Om Mig"/>
 
   <main class="container mx-auto py-20 h-screen">
     <h1 class="text-3xl text-center">Om mig</h1>
