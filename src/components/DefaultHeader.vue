@@ -15,9 +15,9 @@ const props = defineProps({
         <h1 class="text-2xl">{{ props.currentPage }}</h1>
       </div>
       <nav>
-        <ul class="">
-          <li class="inline-block px-1"><router-link to="/">Forside</router-link> </li>
-          <li class="inline-block px-1"><router-link to="om-mig">Hvem er jeg</router-link></li>
+        <ul>
+          <li class="inline-block px-3 border-r-2 border-opacity-30 border-black"><router-link to="/">Home</router-link> </li>
+          <li class="inline-block px-3 border-r-2 border-opacity-30 border-black"><router-link to="about">Who am I</router-link></li>
         </ul>
       </nav>
       <div class="container flex justify-end flex-1">

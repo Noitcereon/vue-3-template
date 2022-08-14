@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ThemeSwitch from "./ThemeSwitch.vue";
 import DefaultFooter from "./DefaultFooter.vue";
 import DefaultHeader from "./DefaultHeader.vue";
 

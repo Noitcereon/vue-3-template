@@ -4,7 +4,7 @@ import About from '@/pages/about.vue';
 
 export const routes = [
   { path: '/', component: Index },
-  { path: '/om-mig', component: About },
+  { path: '/about', component: About },
   { path: '/:path(.*)', component: NotFound },
 ];
 
