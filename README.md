@@ -4,7 +4,12 @@
 
 # Vue.js starter template
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/lecoueyl/vue3-template)
+This Vue 3 template is a modifed version of [lecoueyl's Vue 3 template](https://github.com/lecoueyl/vue3-template).
+
+It has TypeScript included, but removed the linting that was present in the original. In addition the structure is slightly different.
+
+
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://github.dev/Noitcereon/vue-3-template)
 
 Features:
 
@@ -13,8 +18,8 @@ Features:
 - 🗂 [PNPM](https://pnpm.io)
 - 🛣 [Vue Router](https://github.com/vuejs/vue-router-next)
 - 🎨 [Tailwind CSS](https://tailwindcss.com/docs/)
-- 🔍 [Eslint with airbnb and stylelint](https://github.com/airbnb/javascript)
-- 🌗 [Light and dark mode composable](https://github.com/lecoueyl/vue3-template/blob/main/src/composables/theme.js)
+- 📝 [TypeScript](https://www.typescriptlang.org/)
+- 🌗 [Light and dark mode composable](https://github.com/Noitcereon/vue-3-template/blob/main/src/composables/theme.ts)
 - 🔡 [Inter var font](https://rsms.me/inter/)
 - 📄 [Github pages action](https://pages.github.com)
 
@@ -23,7 +28,7 @@ Features:
 Scaffold this repository
 
 ```sh
-pnpx degit lecoueyl/vue3-template my-project
+pnpx degit Noitcereon/vue-3-template my-project
 cd my-project
 ```
 
@@ -38,7 +43,7 @@ pnpm run dev
 
 ### Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lecoueyl/vue3-template)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Noitcereon/vue-3-template)
 
 ### Github pages
 
